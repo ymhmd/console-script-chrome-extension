@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<style type="text/css">
+  #body {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  #scriptInput {
+    width: 600px;
+    height: 25em;
+    border: 2px solid #4CAF50;
+  }
+
+  #urlInput {
+    width: 600px;
+    height: 2em;
+    border: 2px solid #4CAF50;
+  }
+
+  #saveButton {
+    background-color: #4CAF50;
+    border: 2px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0s;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  #saveButton:hover {
+    background-color: #3e8e41;
+    border-radius: 12px;
+    color: white;
+  }
+
+  #saveButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+</style>
+
+<html>
+
+<body id='body'>
+
+  <input id="urlInput" placeholder="URL Contains"><br>
+  <p><textarea id="scriptInput" placeholder="Enter Console Script...."></textarea></p>
+  <br>
+  <br>
+  <button id="saveButton">Save Script</button>
+  <script src="options.js"></script>
+</body>
+
+</html>
